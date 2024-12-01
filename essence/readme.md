@@ -31,7 +31,7 @@ __NOTES:__ Only `9` Factions have been migrated so far. Not all factions will/sh
 
 <details>
   <summary>Why? - Perceived Issues</summary>
-What my group sees as issues with TI4?
+What my group sees as issues with TI4:
 
 Issue 1, Turn 1 Disadvantages: Factions have abilities that scale vastly differently depending on the number of players in the game, the board, and what factions you are playing against. I don't want to spend 8 hours being an underdog, especially because my neighbor accidentally picked the perfect counter to me.
 
@@ -49,8 +49,6 @@ Issue 5, too much deathball (giant fleet in one spot) and not enough situations 
 
 <details>
   <summary>How? - High Level Changes to address issues</summary>
-How am I addressing the Issues?
-
 To speed up the game: Reduce number of spots in the gameplay algorithm where players can interrupt with something, like play an action card. Also start the first round with more units/abilities/stuff to do. This also helps balance some Strategy cards that normally are terrible round 1.
 
 Reduce amount of things each player must keep track of: Redo faction abilities, faction techs, action cards, and heroes as fewer, powerful, exhaustible cards with fewer trigger windows. Now once a player uses it, everyone can stop thinking about it for the round, and it's a lot easier to think about the future. Exhausting also resolves issues with activation scaling: (abilities that trigger everytime X happens, these are impossible to balance around due to issue 1)
