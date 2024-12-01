@@ -1,0 +1,3 @@
+
+# do not allow windows folder links lest pc info be leaked
+*.lnk
