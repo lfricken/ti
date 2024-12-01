@@ -142,9 +142,12 @@ During the first action phase, BEFORE any player takes an action, do the followi
 
 ## Displayed Content:
 ![alt text](cards_agenda.png "Agenda")
+
 ![alt text](cards_action.png "Action")
-![alt text](cards_cards_abilities.png "Ability")
-![alt text](cards_cards_abilities.png "Tech")
+
+![alt text](cards_abilities.png "Ability")
+
+![alt text](cards_tech.png "Tech")
 
 
 
