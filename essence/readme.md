@@ -13,7 +13,7 @@ The goals of this overhaul mod are to:
 
 
 
-__NOTES:__ Only `9` Factions have been migrated so far. Not all factions will/should be migrated. So much stuff changed that you'll have to reprint quite a few things or just use Table Top Simulator.
+__NOTES:__ Only `9` Factions have been migrated so far. Not all factions will/should be migrated. So much stuff changed that you'll have to reprint quite a few things or just use Table Top Simulator [TODO Make Workshop Thing](www.google.com).
 | # Playtests  | Faction |
 | -------- | ------- |
 | 1  | Creuss |
