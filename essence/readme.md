@@ -2,7 +2,7 @@
 
 
 
-## TI4 Essence
+## TI4 Essence (Work In Progress but playable)
 The goals of this overhaul mod are to:
 1. Reduce total game time
 1. Simplify rules so newer players have an easier time
