@@ -149,6 +149,14 @@ During the first action phase, BEFORE any player takes an action, do the followi
 
 ![alt text](cards_tech.png "Tech")
 
+![alt text](strat_2.png "strat")
+
+![alt text](strat_4.png "strat")
+
+![alt text](strat_7.png "strat")
+
+![alt text](strat_8.png "strat")
+
 
 
 
