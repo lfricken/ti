@@ -141,20 +141,28 @@ During the first action phase, BEFORE any player takes an action, do the followi
 
 
 ## Displayed Content:
+Less laws (things you have to be remembering)
 ![alt text](cards_agenda.png "Agenda")
 
+New abilities
 ![alt text](cards_action.png "Action")
 
+Faction abilities
 ![alt text](cards_abilities.png "Ability")
 
+Less techs, but they are better (you have to get prerequisites to get to final layer)
 ![alt text](cards_tech.png "Tech")
 
+Picking this early is still a bummer early game. At least give a guy a command token!
 ![alt text](strat_2.png "strat")
 
+Also pretty bad early. Lots of things could be added there (immediately do a production round maybe?)
 ![alt text](strat_4.png "strat")
 
+Factors in new tech planet tokens
 ![alt text](strat_7.png "strat")
 
+Trying to give this card an early buff so you have more control over your secret objectives.
 ![alt text](strat_8.png "strat")
 
 
