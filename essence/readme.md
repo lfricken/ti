@@ -145,7 +145,7 @@ During the first action phase, BEFORE any player takes an action, do the followi
 Less laws (things you have to be remembering)
 ![alt text](cards_agenda.png "Agenda")
 
-New abilities
+New abilities and the average strength of each card is larger (you don't get any without the Politics strat card! no free status phase action cards)
 ![alt text](cards_action.png "Action")
 
 Faction abilities
