@@ -77,7 +77,7 @@ I also read about people's favorite/hated factions and why. I tried to get rid o
     * __DO__ have access to their faction specific unit technologies;
     * __DO__ their home system unit setup;
 1. __Faction Cards__ - New Card Type - (see cards_abilities.png) Factions no longer have "abilities" rather most stuff related to the faction has been integrated into 4 cards each faction starts with that may be _exhausted_ during the specified card window (explained later) specified by the card. These can never be removed from a player. Every faction card exhausts when used.
-1. __Home System Points__ - Rule Change - There are no victory point restrictions if you lose your home system. The first time you lose all planets in your home system you permanently lose 2VP and cannot regain them. You cannot have negative VPs.
+1. __Home System Points__ - Rule Change - There are no victory point restrictions if you lose your home system. The first time you lose all planets in your home system you lose 2 VP. You regain them if you take it back. Other players do not gain these 2 VP.
 1. __Planetary Shield__ - Rule Change - Each planetary shield may negate 2 bombardment HITS during each TACTICAL action.
 1. __Minor Planet__ - New Term - A planet that satisfies all of the following: in a non home system, has no tech specialty, is not Mecatol Rex, is not legendary.
 1. __Card Window__ - New Term - A spot in the game algorithm where a player may activate abilities of the correct card window type. Card windows are never nested/recursive/inside eachother. If a player is resolving a TACTICAL window card, it is not possible for another player to play a card during this time.
