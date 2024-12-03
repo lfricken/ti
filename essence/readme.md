@@ -1,7 +1,7 @@
 
 
 
-[CLICK THIS TO VIEW ALL CONTENT](Displayed-Content)
+[CLICK THIS TO VIEW ALL CONTENT](#displayed-content)
 
 ## TI4 Essence (Work In Progress but playable)
 The goals of this overhaul mod are to:
