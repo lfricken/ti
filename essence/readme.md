@@ -17,7 +17,7 @@ The goals of this overhaul mod are to:
 __NOTES:__ Only `9` Factions have been migrated so far. Not all factions will/should be migrated. So much stuff changed that you'll have to reprint quite a few things or just use Table Top Simulator [TODO Make Workshop Thing](https://www.google.com/).
 | # Playtests  | Faction |
 | -------- | ------- |
-| 1  | Creuss |
+| 1 | Creuss |
 | 0 | Naalu |
 | 2 | L1Z1X |
 | 1 | Nekro |
