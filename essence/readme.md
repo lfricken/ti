@@ -95,30 +95,30 @@ I also read about people's favorite/hated factions and why. I tried to get rid o
 1. __Tech Lab__ - New Mechanic - Planet technology specialties are now called Tech Labs. Some things award Tech Labs which must be immediately placed on a planet controlled by that player. The planet must be in a system that contains no other Tech Labs on any of its planets. These may not be removed and are treated the same as traditional planet technology specialties. If a player gains a token and is unable to place it immediately, it is destroyed. Effects from exploration cards do not have these placement restrictions.
 1. __Transactions__ Rule Change - You can trade action cards, and owned agenda cards, in a transaction unless something says otherwise. A single transaction can now be multistep (eg. assets flow from player A to B to A to B....) Multistep transactions are fully binding.
 
-Move/Capacity/Invasion Clarifications 
+## Move / Capacity / Invasion Clarifications 
 <details>
-  <summary>(it's so dumb I have to write this)</summary>
-The official move/carry rules are a mess. I have redefined them here starting with some definitions:
+  <summary>Details</summary>
+It's so dumb I have to write this. The official move / capacity rules are a mess and people online aren't even sure! I have redefined them here to match what the developers mostly intended. I did intentionally deviate slightly from fleet pool considerations. In essence we make a distinction between units that are currently held in a space area VS units carried by a unit that is moving (called Cargo). Some definitions:
 
-* Carried - units that may be carried, like ground forces and standard fighters. A Cruiser is not carried, a standard fighter is. A unit like fighter II may choose whether it is classified as carried or not during a specific step. A unit with a non 0 capacity can never be classified as carried.
+* Carried - Unit types that may be transported, like infantry and fighters, but not a Cruiser. A unit like fighter II may choose whether it is classified as carried or not during a specific step. A unit with a non 0 capacity can never be classified as carried.
 
-* Containers - units with non 0 Capacity value, such as War Suns and Carriers.
+* Containers - Units with non 0 Capacity value, such as War Suns and Carriers.
 
-* Space Area - a generic location where carried units may be as long as there is capacity. carried units are not assigned to any particular unit with capacity while here and are not "Cargo".
+* Cargo - Units that are held in a specific unit during the move phase. If a unit is removed from play while it has Cargo inside of it, all Cargo is immediately removed as well. Only Carried units can be turned into Cargo.
 
-* Cargo - units that are held in a specific unit during the move phase. If a unit is removed from play while it has Cargo inside of it, all Cargo is immediately removed as well.
+* Space Area - A generic location in a system where carried units may be as long as there is capacity. Carried units are not assigned to any particular unit with capacity while here and are not "Cargo".
 
-* Load Cargo - a step where you put some number of carried units in the system into the specified unit with enough remaining Cargo slots. These units are "in the Container unit", not in the space area. Units with non 0 capacity cannot be loaded as cargo. These units become Cargo.
+* Capacity N - This unit can hold that many Carried units during the Move phase, aka Cargo. Also used to calculate space area capacity.
 
-* Capacity N - this unit can hold that many Carried units during the Move phase, aka Cargo. Also used to calculate space area capacity.
+* Load Cargo - Step - You may put some number of carried units in the system into the specified unit with enough remaining Cargo slots. These units are "in the Container unit", not in the space area. Units with non 0 capacity cannot be loaded as cargo. These units become Cargo.
 
-* Commit - take ground forces from the space area and place them on any planets in the same system, whether to invade or not.
+* Commit - Step - You may take ground forces from the space area and place them on any planets in the same system, whether to invade or not.
 
-* Check Capacity - Sum the Capacity of units in a system to calculate your space area capacity for that system. Choose carried units to destroy until you are less than or equal to it.
+* Check Capacity - Step - sum the Capacity of units in a system to calculate your space area capacity for that system. Choose carried units to destroy until you are less than or equal to it.
 
-* Check Fleet - .If you have units that may decide to be carried or not, they must decide now. If they decide no but are cargo, they are no longer cargo and move to the space area. Now choose ships to destroy until your ships count in a system is less than or equal to your fleet capacity. 
+* Check Fleet - Step - if you have units that may decide to be carried or not, they must decide now. If they decide no but are cargo, they are no longer cargo and move to the space area as ships. Now choose ships to destroy until your ship count in a system is less than or equal to your fleet pool capacity. 
 
-* Space Dock - its fighter support ability can be read as Capacity that only fighters may use.
+* Space Dock - Its fighter support ability can be read as Capacity that only fighters may use/fill.
 
 ## Move Phase Changes:
 
