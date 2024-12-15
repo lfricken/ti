@@ -95,68 +95,72 @@ I also read about people's favorite/hated factions and why. I tried to get rid o
 1. __Tech Lab__ - New Mechanic - Planet technology specialties are now called Tech Labs. Some things award Tech Labs which must be immediately placed on a planet controlled by that player. The planet must be in a system that contains no other Tech Labs on any of its planets. These may not be removed and are treated the same as traditional planet technology specialties. If a player gains a token and is unable to place it immediately, it is destroyed. Effects from exploration cards do not have these placement restrictions.
 1. __Transactions__ Rule Change - You can trade action cards, and owned agenda cards, in a transaction unless something says otherwise. A single transaction can now be multistep (eg. assets flow from player A to B to A to B....) Multistep transactions are fully binding.
 
-1. <details>
-  <summary>Move/Capacity/Invasion Clarifications (it's so dumb I have to write this)</summary>
-* Carried - units that may be carried, like ground forces and standard fighters. A Cruiser is not carried, a standard fighter is. A unit like fighter II may choose whether it is classified as carried during a specific step. A unit with a non 0 capacity cannot be carried.
+Move/Capacity/Invasion Clarifications 
+<details>
+  <summary>(it's so dumb I have to write this)</summary>
+The official move/carry rules are a mess. I have redefined them here starting with some definitions:
 
-* Containers - units with non 0 Capacity value , such as War Suns and Dreadnoughts.
+* Carried - units that may be carried, like ground forces and standard fighters. A Cruiser is not carried, a standard fighter is. A unit like fighter II may choose whether it is classified as carried or not during a specific step. A unit with a non 0 capacity can never be classified as carried.
+
+* Containers - units with non 0 Capacity value, such as War Suns and Carriers.
 
 * Space Area - a generic location where carried units may be as long as there is capacity. carried units are not assigned to any particular unit with capacity while here and are not "Cargo".
 
-* Cargo - units that are held in a specific unit during the move phase. If a unit is removed from play while it has Cargo, all Cargo is immediately removed as well.
+* Cargo - units that are held in a specific unit during the move phase. If a unit is removed from play while it has Cargo inside of it, all Cargo is immediately removed as well.
 
-* Load Cargo - put some number of carried units in the system into the specified unit with enough remaining Cargo slots. These units are "in the container unit", not in the space area. Units with non 0 capacity cannot be loaded as cargo.
+* Load Cargo - a step where you put some number of carried units in the system into the specified unit with enough remaining Cargo slots. These units are "in the Container unit", not in the space area. Units with non 0 capacity cannot be loaded as cargo. These units become Cargo.
 
 * Capacity N - this unit can hold that many Carried units during the Move phase, aka Cargo. Also used to calculate space area capacity.
 
-* Commit - take ground forces from the space area and place them on any planets in the same system.
+* Commit - take ground forces from the space area and place them on any planets in the same system, whether to invade or not.
 
-* Check Capacity - Sum the capacity of units in a system to calculate your space area capacity for that system. Choose carried units to destroy until you are less than or equal to it.
+* Check Capacity - Sum the Capacity of units in a system to calculate your space area capacity for that system. Choose carried units to destroy until you are less than or equal to it.
 
 * Check Fleet - .If you have units that may decide to be carried or not, they must decide now. If they decide no but are cargo, they are no longer cargo and move to the space area. Now choose ships to destroy until your ships count in a system is less than or equal to your fleet capacity. 
 
 * Space Dock - its fighter support ability can be read as Capacity that only fighters may use.
 
-Move phase :
+## Move Phase Changes:
 
-a1.  Elect every unit that will be moving to the active system. Each must have enough move to make it to the activated system. You do not need enough fleet pool to sustain them yet.
-// Elect beforehand since units are logically moving together under a time constraint. They can't wait to see if each before them reached the destination.
+__a1.__  Before moving units, publicly elect every unit that will be moving to the active system. Each must have enough move to make it to the activated system. You do not need enough fleet pool to sustain them at the destionation.
+> Elect beforehand since units are logically moving together under a time constraint. You aren't allowed to wait and see if each ship reaches the destination before sending the next one.
 
-// Now let containers pick up cargo to put in the active system 
-a2.  Now pick a single unit from among them, then move it one system at a time while performing the following:
-a3.  Before it moves from each system: You may Load Cargo into it (unless the system has a command token of yours) 
+> Now let Containers pick up cargo to put in the active system:
 
-
-a4.  Once all units have finished moving Check fleet
-// Unload Cargo after fleet check to avoid tons of carriers injecting their Cargo into the system if that many container ships wouldn't be allowed 
-a5.  Then Unload Cargo into the space area: units held by containers are no longer loaded cargo, but are now in the space area themselves.
-a6.  Check Capacity // It's possible existing carried + arriving cargo now exceeds capacity 
+__a2.__  Now pick a single unit from among them, then move it one system at a time while performing the following:
+__a3.__  Before it moves _from_ each system: You may `Load Cargo` into it (unless the system has a command token of yours) 
 
 
-Invasion phase:
+__a4.__  Once all units have finished moving Check fleet
+> Unload Cargo after fleet check to avoid tons of carriers injecting their Cargo into the system if that many Container ships wouldn't be allowed due to fleet pool
 
-// Allow free exchange of carried units between containers and planets
+__a5.__  Then Unload Cargo into the space area: units held by containers are no longer loaded cargo, but are now in the space area themselves.
+> It's possible existing carried + arriving cargo now exceeds capacity, so check capacity:
 
-b1.  First you may take each carried unit in the system and either move it TO the space area from another area, or FROM the space area to another area, such as planets you control. So you cannot move units from one planet to another here.
+__a6.__  Check Capacity
 
-b2.  Then Check Capacity // make sure the player cannot move more ground forces locally than their container capacity should allow
+
+## Invasion Phase Changes:
+
+> Now let's allow free exchange of carried units between containers and planets:
+
+__b1.__  First you may take each carried unit in the system and either move it TO the space area from another area, or FROM the space area to another area, such as planets you control. So you cannot move units from one planet to another here.
+
+__b2.__  Then Check Capacity
+> make sure the player cannot move more ground forces locally than their capacity should allow
 
 Then you may Commit.
 Then resolve all ground combat 
 
-c1.  At the end of the Invasion phase any ground forces in the space area must land on friendly planets if able (and they must specify the planet). No ground forces may remain in the space area unless they have nowhere to land.
-// This resolves awkward mechanics where players should hold some or most of their ground forces in space based on meta knowledge of card events
+__c1.__  At the end of the Invasion phase any ground forces in the space area must land on friendly planets if able (and they must specify the planet). No ground forces may remain in the space area unless they have nowhere to land.
+> This resolves awkward mechanics where players should hold some or most of their ground forces in space based on meta knowledge of card events
 
-Results:
-It's clear you can shuffle ground forces in the activated system like you'd expect.
-
-You can move a fighter II into a system that does not contain enough fleet pool, but can hold the fighter via capacity.
-
-You still cannot effectively move a carrier into a system that doesn't have enough fleet pool for it but does have enough capacity for its cargo. The cargo wouldn't make it.
-
-Since you move units one at a time it is possible to "overload" the destination fleet pool for the sake of something like a gravity rift. Eg max 5 but you sent 7, first 2 made it, next 1 died, next 3 made it, and then you elected to remove the 1 excess ship which may or may not contain cargo.
-
-A space dock can facilitate moving ground forces since it can free up capacity providing for fighters during b1 that could then be used for ground forces 
+## Results
+1. It's clear you can shuffle ground forces in the activated system like you'd expect.
+1. You can move a fighter II into a system that does not contain enough fleet pool, but can hold the fighter via capacity.
+1. You still cannot effectively move a carrier into a system that doesn't have enough fleet pool for it but does have enough capacity for its cargo. The cargo wouldn't make it.
+1. Since you move units one at a time it is possible to "overload" the destination fleet pool for the sake of something like a gravity rift. Eg max 5 but you sent 7, first 2 made it, next 1 died, next 3 made it, and then you elected to remove the 1 excess ship which may or may not contain cargo.
+1. A space dock can facilitate moving ground forces since it can free up capacity providing for fighters during b1 that could then be used for ground forces 
 </details>
 
 
