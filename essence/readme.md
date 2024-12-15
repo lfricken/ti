@@ -131,13 +131,13 @@ __a2.__  Now pick a single unit from among them, then move it one system at a ti
 __a3.__  Before it moves _from_ each system: You may `Load Cargo` into it (unless the system has a command token of yours) 
 
 
-__a4.__  Once all units have finished moving Check fleet
+__a4.__  Once all units have finished moving `Check Fleet`
 > Unload Cargo after fleet check to avoid tons of carriers injecting their Cargo into the system if that many Container ships wouldn't be allowed due to fleet pool
 
-__a5.__  Then Unload Cargo into the space area: units held by containers are no longer loaded cargo, but are now in the space area themselves.
+__a5.__  Then unload Cargo into the space area: there can no longer be any cargo, all those units are now in the space area themselves.
 > It's possible existing carried + arriving cargo now exceeds capacity, so check capacity:
 
-__a6.__  Check Capacity
+__a6.__  `Check Capacity`
 
 
 ## Invasion Phase Changes:
@@ -146,10 +146,10 @@ __a6.__  Check Capacity
 
 __b1.__  First you may take each carried unit in the system and either move it TO the space area from another area, or FROM the space area to another area, such as planets you control. So you cannot move units from one planet to another here.
 
-__b2.__  Then Check Capacity
+__b2.__  Then `Check Capacity`
 > make sure the player cannot move more ground forces locally than their capacity should allow
 
-Then you may Commit.
+Then you may `Commit`.
 Then resolve all ground combat 
 
 __c1.__  At the end of the Invasion phase any ground forces in the space area must land on friendly planets if able (and they must specify the planet). No ground forces may remain in the space area unless they have nowhere to land.
