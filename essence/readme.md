@@ -58,7 +58,7 @@ Abilities, techs, cards etc. should not outright DISABLE eachother (eg planetary
 
 Clarify everything and remove [recursive](https://en.wikipedia.org/wiki/Recursion) mechanics (like Action cards targetting other action cards, or triggering other action cards) to avoid strange edge cases where you have to spend time to clarify the rules.
 
-To avoid deathball, or at least mitigate, new cards effects can naturally break these up (Drop Pods especially)
+To avoid deathball, or at least mitigate, new cards effects can naturally break these up (Launch Pods especially)
 
 I also read about people's favorite/hated factions and why. I tried to get rid of the bad stuff.
 
@@ -79,9 +79,9 @@ I also read about people's favorite/hated factions and why. I tried to get rid o
     * __DO__ their home system unit setup;
 1. __Faction Cards__ - New Card Type - (see cards_abilities.png) Factions no longer have "abilities" rather most stuff related to the faction has been integrated into 4 cards each faction starts with that may be _exhausted_ during the specified card window (explained later) specified by the card. These can never be removed from a player. Every faction card exhausts when used.
 1. __Home System Points__ - Rule Change - There are no victory point restrictions if you lose your home system. The first time you lose all planets in your home system you lose 2 VP. You regain them if you take it back. Other players do not gain these 2 VP.
+1. __One Agenda__ - Rule Change - During the Agenda phase, only draw and vote on one agenda. Do not ready planets during the status phase. Planets exhausted at the end of the action phase stay exhausted until the end of the agenda phase.
 1. __Planetary Shield__ - Rule Change - Each planetary shield may negate 2 bombardment HITS during each TACTICAL action.
 1. __Order Definition__ - If the order of play is ever unspecified, it is: Starting with the Speaker, going clockwise
-1. __Minor Planet__ - New Term - A planet that satisfies all of the following: in a non home system, is not Mecatol Rex.
 1. __Card Window__ - New Term - A spot in the game algorithm where a player may activate abilities of the correct card window type. Card windows are never nested/recursive/inside eachother. If a player is resolving a TACTICAL window card, it is not possible for another player to play a card during this time.
 1. __ACTION__ - Card Window - Indicates the ability can be used via a Component Action just like a normal ACTION action card. This matches standard TI4.
 1. __STATUS__ - Card Window - Indicates the ability can be used at the beginning of the status phase in clockwise order, speaker last.
@@ -91,10 +91,73 @@ I also read about people's favorite/hated factions and why. I tried to get rid o
 1. __Stall__ - Clarification - Any unexhausted _Faction Card_ of type ACTION or FLAGSHIP ACTION can instead be exhausted to skip your turn, and the text on the ability is ignored, as if you discarded an action card. You can use a FLAGSHIP ACTION ability this way regardless of whether you have a Flagship.
 1. __Ground Force Location Specifics__ - Rule Change - Ground forces automatically and immediately land on allied planets if they end up in a system containing allied planets. Players must specify which planet which forces are on if multiple are available. For example: any ground forces not committed to a ground invasion, where a planet is successfully captured, must then land after the ground combat resolves. Placing ground forces into a system via non-tactical action events also follows this rule: if any ground force finds itself in a system with allied planets, they must be placed on a particular planet. Ground forces can only sit in the space area if there are no friendly planets to land on.
 1. __Capacity Specifics__ - Rule Change - The TI4 rules for capacity, move, and invasion are unclear, even examining online guides. So... units can be loaded onto ships with Capacity that start, pass through, or end in the active system. They may only be unloaded onto planets during the Invasion phase in the activated system.
-1. __Drop Pods N__ - New Mechanic - Similar to the Sardakk Commander ability but WITHOUT requiring a tactical activation token. Upon activating this ability immediately send N Infantry from a target source of Infantry to a planet in this system or adjacent systems. Perform an Invasion phase immediately. If you have multiple Drop Pod abilities that can trigger at the same time they can invade together. (there is tech to help counter this ability) This is not a Tactical action and there is no Card Window during this Invasion phase (just like the standard Invasion phase in TI4 Essence).
+1. Launch Pods N__ - New Mechanic - Similar to the Sardakk Commander ability but WITHOUT requiring a tactical activation token. Upon activating this ability immediately send N Infantry from a target source of Infantry to a planet in this system or adjacent systems. Perform an Invasion phase immediately. If you have multiple Launch Pod abilities that can trigger at the same time they can invade together. (there is tech to help counter this ability) This is not a Tactical action and there is no Card Window during this Invasion phase (just like the standard Invasion phase in TI4 Essence).
 1. __Tech Lab__ - New Mechanic - Planet technology specialties are now called Tech Labs. Some things award Tech Labs which must be immediately placed on a planet controlled by that player. The planet must be in a system that contains no other Tech Labs on any of its planets. These may not be removed and are treated the same as traditional planet technology specialties. If a player gains a token and is unable to place it immediately, it is destroyed. Effects from exploration cards do not have these placement restrictions.
 1. __Transactions__ Rule Change - You can trade action cards, and owned agenda cards, in a transaction unless something says otherwise. A single transaction can now be multistep (eg. assets flow from player A to B to A to B....) Multistep transactions are fully binding.
 
+1. <details>
+  <summary>Move/Capacity/Invasion Clarifications (it's so dumb I have to write this)</summary>
+* Carried - units that may be carried, like ground forces and standard fighters. A Cruiser is not carried, a standard fighter is. A unit like fighter II may choose whether it is classified as carried during a specific step. A unit with a non 0 capacity cannot be carried.
+
+* Containers - units with non 0 Capacity value , such as War Suns and Dreadnoughts.
+
+* Space Area - a generic location where carried units may be as long as there is capacity. carried units are not assigned to any particular unit with capacity while here and are not "Cargo".
+
+* Cargo - units that are held in a specific unit during the move phase. If a unit is removed from play while it has Cargo, all Cargo is immediately removed as well.
+
+* Load Cargo - put some number of carried units in the system into the specified unit with enough remaining Cargo slots. These units are "in the container unit", not in the space area. Units with non 0 capacity cannot be loaded as cargo.
+
+* Capacity N - this unit can hold that many Carried units during the Move phase, aka Cargo. Also used to calculate space area capacity.
+
+* Commit - take ground forces from the space area and place them on any planets in the same system.
+
+* Check Capacity - Sum the capacity of units in a system to calculate your space area capacity for that system. Choose carried units to destroy until you are less than or equal to it.
+
+* Check Fleet - .If you have units that may decide to be carried or not, they must decide now. If they decide no but are cargo, they are no longer cargo and move to the space area. Now choose ships to destroy until your ships count in a system is less than or equal to your fleet capacity. 
+
+* Space Dock - its fighter support ability can be read as Capacity that only fighters may use.
+
+Move phase :
+
+a1.  Elect every unit that will be moving to the active system. Each must have enough move to make it to the activated system. You do not need enough fleet pool to sustain them yet.
+// Elect beforehand since units are logically moving together under a time constraint. They can't wait to see if each before them reached the destination.
+
+// Now let containers pick up cargo to put in the active system 
+a2.  Now pick a single unit from among them, then move it one system at a time while performing the following:
+a3.  Before it moves from each system: You may Load Cargo into it (unless the system has a command token of yours) 
+
+
+a4.  Once all units have finished moving Check fleet
+// Unload Cargo after fleet check to avoid tons of carriers injecting their Cargo into the system if that many container ships wouldn't be allowed 
+a5.  Then Unload Cargo into the space area: units held by containers are no longer loaded cargo, but are now in the space area themselves.
+a6.  Check Capacity // It's possible existing carried + arriving cargo now exceeds capacity 
+
+
+Invasion phase:
+
+// Allow free exchange of carried units between containers and planets
+
+b1.  First you may take each carried unit in the system and either move it TO the space area from another area, or FROM the space area to another area, such as planets you control. So you cannot move units from one planet to another here.
+
+b2.  Then Check Capacity // make sure the player cannot move more ground forces locally than their container capacity should allow
+
+Then you may Commit.
+Then resolve all ground combat 
+
+c1.  At the end of the Invasion phase any ground forces in the space area must land on friendly planets if able (and they must specify the planet). No ground forces may remain in the space area unless they have nowhere to land.
+// This resolves awkward mechanics where players should hold some or most of their ground forces in space based on meta knowledge of card events
+
+Results:
+It's clear you can shuffle ground forces in the activated system like you'd expect.
+
+You can move a fighter II into a system that does not contain enough fleet pool, but can hold the fighter via capacity.
+
+You still cannot effectively move a carrier into a system that doesn't have enough fleet pool for it but does have enough capacity for its cargo. The cargo wouldn't make it.
+
+Since you move units one at a time it is possible to "overload" the destination fleet pool for the sake of something like a gravity rift. Eg max 5 but you sent 7, first 2 made it, next 1 died, next 3 made it, and then you elected to remove the 1 excess ship which may or may not contain cargo.
+
+A space dock can facilitate moving ground forces since it can free up capacity providing for fighters during b1 that could then be used for ground forces 
+</details>
 
 
 
@@ -111,8 +174,8 @@ During the first action phase, BEFORE any player takes an action, do the followi
 ## Todo Prioritized
 1. examine Discordant Stars mod for interesting ideas
 1. Make resource and influence collection/tracking easier somehow
-1. put strat card textures into correct format for scripted TTS version (Twilight Imperium IV)
 1. put into TTS workshop
+1. put strat card textures into correct format for scripted TTS version (Twilight Imperium IV)
 1. create battle cards that randomly spice up a battle? (you draw one during a battle and it has some impact)
 1. consider giving each faction 1 or 2 special unit techs
 1. review promissory notes
