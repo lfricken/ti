@@ -74,21 +74,22 @@ I also read about people's favorite/hated factions and why. I tried to get rid o
 1. __Strategy Card Changes__ - Rule Change - (see strat png files)
 1. __Faction Setup__ - Rule Change - Factions:
     * __do not__ make use of abilities/effects printed on their _faction sheets_ or _flagship_ or _leaders_; flagships retain any common mechanics like bombard or space cannon; 
+    * __do not__ gain starting technologies;
     * __do not__ have access to faction specific technologies;
     * __DO__ have access to their faction specific unit technologies;
     * __DO__ their home system unit setup;
-1. __Faction Cards__ - New Card Type - (see cards_abilities.png) Factions no longer have "abilities" rather most stuff related to the faction has been integrated into 4 cards each faction starts with that may be _exhausted_ during the specified card window (explained later) specified by the card. These can never be removed from a player. Every faction card exhausts when used.
+1. __Ability Cards__ - New Card Type - (see cards_abilities.png) Factions no longer have inherent "abilities", instead most stuff related to the faction has been integrated into 4 cards each starts with that may be _exhausted_ during the specified card window (explained later) specified by the card. These can never be removed from a player. Every Ability Card exhausts when used.
 1. __Home System Points__ - Rule Change - There are no victory point restrictions if you lose your home system. The first time you lose all planets in your home system you lose 2 VP. You regain them if you take it back. Other players do not gain these 2 VP.
-1. __One Agenda__ - Rule Change - During the Agenda phase, only draw and vote on one agenda. Do not ready planets during the status phase. Planets exhausted at the end of the action phase stay exhausted until the end of the agenda phase.
+1. __One Agenda__ - Rule Change - Planets are only readied at the beginning of the Strategy phase, not the status or agenda phase. First, players go clockwise starting with the speaker, they may first play up to one VOTING card and then allocate their planet Influence among any players including themselves. After each player has done this, the player with the most Influence becomes the Leader and draws one Agenda and decides its outcome. Influence ties are resolved randomly.
 1. __Planetary Shield__ - Rule Change - Each planetary shield may negate 2 bombardment HITS during each TACTICAL action.
-1. __Order Definition__ - If the order of play is ever unspecified, it is: Starting with the Speaker, going clockwise
+1. __Order Definition__ - If the order of play is ever unspecified, it is: Clockwise with Speaker Last
 1. __Card Window__ - New Term - A spot in the game algorithm where a player may activate abilities of the correct card window type. Card windows are never nested/recursive/inside eachother. If a player is resolving a TACTICAL window card, it is not possible for another player to play a card during this time.
 1. __ACTION__ - Card Window - Indicates the ability can be used via a Component Action just like a normal ACTION action card. This matches standard TI4.
 1. __STATUS__ - Card Window - Indicates the ability can be used at the beginning of the status phase in clockwise order, speaker last.
 1. __VOTING__ - Card Window - Indicates the ability can be used just before you would place votes for an agenda (usually during the agenda phase). Up to two abilities per player only. You may not play a card or ability until it is your turn to vote (even if you cannot place votes).
-1. __TACTICAL__ - Card Window - Indicates the ability can be used during the a TACTICAL action card window. After activating a system, the player taking the tactical action may use up to two Tactical cards (Tactical faction card, Tactical action card, etc.), _then_ moves any units. Now each player that has units or owned planets in the activated system (go clockwise from activating player) may use up to two Tactical cards. Afterward, the tactical action continues normally, starting with Space Cannon Offense.
+1. __TACTICAL__ - Card Window - Indicates the ability can be used during the a TACTICAL action card window. After activating a system, the player taking the tactical action may use up to two Tactical cards (Tactical Ability Card, Tactical action card, etc.), _then_ moves any units. Now each player that has units or owned planets in the activated system (go clockwise from activating player) may use up to two Tactical cards. Afterward, the tactical action continues normally, starting with Space Cannon Offense.
 1. __FLAGSHIP TACTICAL__ - Card Window - Indicates the ability can be used during the TACTICAL card window if the player's Flagship is in a system (aka not dead). FLAGSHIP ACTION is like an ACTION card but requires your Flagship for any effects.
-1. __Stall__ - Clarification - Any unexhausted _Faction Card_ of type ACTION or FLAGSHIP ACTION can instead be exhausted to skip your turn, and the text on the ability is ignored, as if you discarded an action card. You can use a FLAGSHIP ACTION ability this way regardless of whether you have a Flagship.
+1. __Stall__ - Clarification - Any unexhausted _Ability Card_ of type ACTION or FLAGSHIP ACTION can instead be exhausted to skip your turn, and the text on the ability is ignored, as if you discarded an action card. You can use a FLAGSHIP ACTION ability this way regardless of whether you have a Flagship.
 1. __Ground Force Location Specifics__ - Rule Change - Ground forces automatically and immediately land on allied planets if they end up in a system containing allied planets. Players must specify which planet which forces are on if multiple are available. For example: any ground forces not committed to a ground invasion, where a planet is successfully captured, must then land after the ground combat resolves. Placing ground forces into a system via non-tactical action events also follows this rule: if any ground force finds itself in a system with allied planets, they must be placed on a particular planet. Ground forces can only sit in the space area if there are no friendly planets to land on.
 1. __Capacity Specifics__ - Rule Change - The TI4 rules for capacity, move, and invasion are unclear, even examining online guides. So... units can be loaded onto ships with Capacity that start, pass through, or end in the active system. They may only be unloaded onto planets during the Invasion phase in the activated system.
 1. Launch Pods N__ - New Mechanic - Similar to the Sardakk Commander ability but WITHOUT requiring a tactical activation token. Upon activating this ability immediately send N Infantry from a target source of Infantry to a planet in this system or adjacent systems. Perform an Invasion phase immediately. If you have multiple Launch Pod abilities that can trigger at the same time they can invade together. (there is tech to help counter this ability) This is not a Tactical action and there is no Card Window during this Invasion phase (just like the standard Invasion phase in TI4 Essence).
@@ -223,16 +224,22 @@ Faction abilities
 Less techs, but they are better (you have to get prerequisites to get to final layer)
 ![alt text](cards_tech.png "Tech")
 
-Picking this early is still a bummer early game. At least give a guy a command token!
+Buff all around
 ![alt text](strat_2.png "strat")
 
-Also pretty bad early. Lots of things could be added there (immediately do a production round maybe?)
+Buff early and late game
 ![alt text](strat_4.png "strat")
 
-Factors in new tech planet tokens
+Balance for player count
+![alt text](strat_5.png "strat")
+
+Redefine secondary
+![alt text](strat_6.png "strat")
+
+Factor in tech labs and get less techs
 ![alt text](strat_7.png "strat")
 
-Trying to give this card an early buff so you have more control over your secret objectives.
+Buff early game
 ![alt text](strat_8.png "strat")
 
 
