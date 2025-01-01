@@ -1,6 +1,7 @@
 
 
 ## Tood
+make map have just 7 tiles PLUS home base total
 How do we solve teams running past eachother? If they pass the same boundary, 
 
 
@@ -91,16 +92,16 @@ Construct New Fleet - Put a new fleet marker on the board and build units into i
 ### Secondaries (with ordering):
 Trade II - :::: (Exclusive With Primary) - Gain 3 commodity
 Politics II - :::: (Exclusive With Primary) Draw 2 action cards and keep 1
-Warfare II - :::: (Exclusive With Primary) Construct New Fleet at target unit in home system and pick up the fleet card
+Warfare II - :::: (Exclusive With Primary) Construct New Fleet at target unit in home system and pick up the fleet card for it
 
 Construction II - :::: (Exclusive With Primary) - Place a Space dock OR PDS
 Technology II- :::: (Exclusive With Primary) - pay 4 resources and then research
 Imperial II - :::: (Exclusive With Primary) - draw 1 secret objective
 
 
-Fabricate - Construct New Fleet at target system with PRODUCTION
+Fabricate - Construct New Fleet at target system with PRODUCTION; Do NOT pick up the fleet card for this fleet
 Reinforce - Produce units into an existing fleet via one production unit in the system
-Maneuver - split or merge fleets in the same system. a fleet split for an expended fleet results in two expended fleets
+Maneuver - split or merge fleets in the same system. a fleet split for an expended fleet results in two expended fleets. A ship cannot move from an expended fleet to an unexpended one. You can move unexpended into an expended one.
 
 
 
@@ -112,3 +113,7 @@ Maneuver - split or merge fleets in the same system. a fleet split for an expend
 TODO SEE ACTION CARDS
 
 ## Faction Abilities and Cards (combo of )
+
+
+## Combat
+Basically identical, except you can only have one fleet in combat at a time. Once your first chosen fleet retreats or is killed, the other next chosen one must enter for the next combat round.
