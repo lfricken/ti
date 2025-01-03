@@ -1,13 +1,9 @@
 
 
 ## Tood
-fleet and system cards
-sys # tokens
-fleet tokens (holds units on them)
-legendary cards
 abil cards
-what does FAST do?
-consider more special unit cards (like magic cards)
+how to buff units that used to be fast?
+consider more special unit cards (like magic cards/abilities)
 
 
 ## Concept
