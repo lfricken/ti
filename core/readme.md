@@ -1,7 +1,12 @@
 
 
 ## Tood
-how to solve land unit pickup or dropoff timing order
+fleet and system cards
+sys # tokens
+fleet tokens (holds units on them)
+legendary cards
+abil cards
+what does FAST do?
 consider more special unit cards (like magic cards)
 
 
@@ -34,7 +39,7 @@ Each turn every player simultaneously picks a card from their hand (tactics or a
 
 
 ## Fleet Actions
-The board has 7 primary systems: Mecatol in center and 6 surrounding. Then a hex for each home system which is not connected to the board directly. You have a card for each of the primary ones, and one for _your_ home system. During tactical actions you select two cards, representing a Source and a Destination. You typically cannot select two primary systems. Rather, your ships must move back and forth between your home and primary systems unless they have the FAST trait.
+The board has 7 primary systems: Mecatol in center and 6 surrounding. Then a hex for each home system which is not connected to the board directly. You have a card for each of the primary ones, and one for _your_ home system. During tactical actions you select two cards, representing a Source and a Destination. You typically cannot select two primary systems. Fast ships .
 
 When electing to load or or not ground forces: (clock wise speaker last) CWSL
 
@@ -189,7 +194,19 @@ Variables that can change during the ability action, and thus cards that depend 
 * technologies
 
 
+## Balance
 
 
+1a - 5 r
+1b - 4   L
+1c - 3 y L
+2a - 4 r L
+
+2b - 4 y L
+2c - 4 g L
+2d - 3 g L
+3b - 4 y L L
 
 
+Wa - 2 L
+Wb - 2 L
