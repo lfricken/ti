@@ -1,10 +1,8 @@
 
 
 ## Tood
-tech cards
 action cards
 abil/strat cards
-rethink tech so you can accumulate tech points you spend
 secret obj (may score at the end of any phase or the isntant they happen)
     destroy an enemy flagship or dreadnought via space combat
     destroy an enemy pds via an invasion
@@ -29,14 +27,6 @@ public obj I and II
     have 6 or more fighters in one fleet
 consider more special unit cards (like magic cards/abilities)
 
-unit tech ratios:
-r 24
-g 24
-y 25
-
-r 9
-g 9
-y 9
 
 
 ## Concept
@@ -135,7 +125,7 @@ Construct New Fleet - Put a new fleet marker on the board and build units into i
 * __Warfare__ - :::: commit system. Pick up a fleet card for a fleet in that system ::::
 
 * __Construction__ - :::: Commit system and place 1 SD or 1 PDS and also then 1 PDS on a planet you control in it ::::
-* __Technology__ - :::: commit a tech whether or not you can pay for it and Redraw any # ship techs in your hand, pay 4 gain 1 lab free OR gain all planets, then you may buy the committed tech or a public tech
+* __Technology__ - :::: commit a tech whether or not you can pay for it and Redraw any # ship techs in your hand, gain 1 lab free OR gain all planets, then you may buy the committed tech or a public tech
 
 * __Industry__ - commit system gain 1 trade good for each resource you control in this system
 * __Diplomacy__ - commit system, other players may not use this system card for fleet tactical actions
@@ -149,7 +139,7 @@ Politics II - :::: (Exclusive With Primary) commit home Draw 2 action cards and 
 Warfare II - :::: (Exclusive With Primary) - commit system Produce New Fleet at target system
 
 Construction II - :::: (Exclusive With Primary) - commit system Place a Space dock OR PDS
-Research - commit a tech whether or not you can pay for it, gain 1 lab by paying 4 resources OR gain planets, then you may buy the committed tech or a public tech
+Research - commit a tech whether or not you can pay for it, gain 1 lab by paying 4 resources OR gain all from planets, then you may buy the committed tech OR any public tech
 
 Reinforce - commit system Produce into existing fleet in the system
 Leadership - commit system Split or merge fleets there. a fleet split for an expended fleet results in two expended fleets (a ship could never move twice from this ability)
