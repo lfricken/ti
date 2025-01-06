@@ -1,9 +1,9 @@
 
 
 ## Tood
+base unit cards (and buff destroyer fighter barrage by 1 odds)
 action cards
-abil/strat cards
-secret obj (may score at the end of any phase or the isntant they happen)
+secret obj (may score at the end of any phase)
     destroy an enemy flagship or dreadnought via space combat
     destroy an enemy pds via an invasion
     Destroy the last of a player's ground forces on a planet during the bombardment step.
@@ -25,6 +25,8 @@ public obj I and II
     have 1 or more ships in 3 non home systems
     spend 7 trade goods on this card
     have 6 or more fighters in one fleet
+
+faction cards
 consider more special unit cards (like magic cards/abilities)
 
 
@@ -63,6 +65,13 @@ The board has 7 primary systems: Mecatol in center and 6 surrounding. Then a hex
 
 When electing to load or or not ground forces: (clock wise speaker last) CWSL
 
+
+## Scattered Forces
+When your forces retreat, they are assigned to the scattered forces pool. Units in the scattered forces pool may be built for free during the next and subsequent rounds.
+
+
+## Scrap Pool
+Units that die are moved here. At the end of the round, the owner takes 
 
 
 ## Quick Rule Changes
