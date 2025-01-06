@@ -1,6 +1,6 @@
 
 
-## Tood
+## Todo
 base unit cards (and buff destroyer fighter barrage by 1 odds)
 action cards
 secret obj (may score at the end of any phase)
@@ -25,9 +25,9 @@ public obj I and II
     have 1 or more ships in 3 non home systems
     spend 7 trade goods on this card
     have 6 or more fighters in one fleet
-
+agenda cards
 faction cards
-consider more special unit cards (like magic cards/abilities)
+
 
 
 
@@ -79,10 +79,10 @@ when units die you put their value in a pot where you get 50% of it as resources
 may only elect to retreat TO home, cannot retreat from MR
 can never attack home systems
 no flagships
-planets have money on them at the beginning of the round, until you spend the money, anyone can spend it/take
+planets have money placed onto them at the beginning of the round, until you spend the money from the planet, anyone can spend it/take
 during the strategy phase your resources value is set to 2 per planet
 influence does not exist
-commodity does not exist
+commodity does not exist, Trade Goods now called goods
 transactions do not exist
 promisory notes redone
 PDS fires on ships activating the system
