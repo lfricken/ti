@@ -1,8 +1,6 @@
 
 
 ## Todo
-base unit cards (and buff destroyer fighter barrage by 1 odds)
-action cards
 secret obj (may score at the end of any phase)
     destroy an enemy flagship or dreadnought via space combat
     destroy an enemy pds via an invasion
@@ -15,18 +13,9 @@ secret obj (may score at the end of any phase)
     construct units and use 10 or more trade goods
     be voted as Leader
     participate in combat with 2 or more other players
-public obj I and II
-    Have 2 unit technologies
-    Have 2 non-unit technologies
-    Control a planet in a wormhole
-    have 2 space docks in non-home systems
-    control 3 legendary planets
-    control 3 Tech Labs
-    have 1 or more ships in 3 non home systems
-    spend 7 trade goods on this card
-    have 6 or more fighters in one fleet
 agenda cards
 faction cards
+action card peek next obj
 
 
 
