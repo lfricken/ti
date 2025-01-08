@@ -1,21 +1,7 @@
 
 
 ## Todo
-secret obj (may score at the end of any phase)
-    destroy an enemy flagship or dreadnought via space combat
-    destroy an enemy pds via an invasion
-    Destroy the last of a player's ground forces on a planet during the bombardment step.
-    End a space combat victorious (with at least one ship remaining) in a system with a Magnetar or Supernova
-    have 4 PDS in non-home systems
-    have 12 infantry in non-home systems
-    Control a planet in a system that contains enemy war ships
-    Have 2 full fleets
-    construct units and use 10 or more trade goods
-    be voted as Leader
-    participate in combat with 2 or more other players
-agenda cards
 faction cards
-action card peek next obj
 
 
 
@@ -64,6 +50,7 @@ Units that die are moved here. At the end of the round, the owner takes
 
 
 ## Quick Rule Changes
+resolve on public objective end of round, one secret objective any time during round
 when units die you put their value in a pot where you get 50% of it as resources at end of round and remainder is saved
 may only elect to retreat TO home, cannot retreat from MR
 can never attack home systems
@@ -156,11 +143,11 @@ TODO SEE ACTION CARDS
 
 ## Faction Abilities and Cards (combo of )
 Creuss : Micro Wormhole ability card
-Nekro : Pay 2 research ability card
+Nekro : Pay 1 research ability card
 Hacan : Trade 3 : 1 ability card
-Lizix : Reinforce into any fleet with 3 produce ability card
-Muaat : War Suns but no war sun upgrade
-Sardakk : May commit ground forces before space combat IFF carrier
+Lizix : Reinforce into any fleet with 2 produce ability card
+Muaat : Build War Sun ability card
+Sardakk : May commit up to 4 ground forces before space combat for each carrier in fleet
 Arborec : Infantry do not count toward produce limits
 
 
@@ -220,3 +207,10 @@ Variables that can change during the ability action, and thus cards that depend 
 
 Wa - 2 L
 Wb - 2 L
+
+
+## Other Ideas
+* action card - scry upcoming objectives
+* secret obj - participate in combat with 2 or more other players
+
+
