@@ -1,8 +1,11 @@
 
 
 ## Todo
-faction cards
+xthian wormhole legendary rephrase Fleets in this system may load ground forces that are in the owners home system.
+type rules into readme.md file
+playtest
 
+1 dread 2 cruiser 1 carrier 3 infantry 1 fighter
 
 
 
@@ -50,7 +53,8 @@ Units that die are moved here. At the end of the round, the owner takes
 
 
 ## Quick Rule Changes
-resolve on public objective end of round, one secret objective any time during round
+max 5 major ships per fleet
+resolve one public objective end of round, one secret objective any time during round
 when units die you put their value in a pot where you get 50% of it as resources at end of round and remainder is saved
 may only elect to retreat TO home, cannot retreat from MR
 can never attack home systems
@@ -142,13 +146,6 @@ Imperial - commit home score any objective (repeat objective for center) OR draw
 TODO SEE ACTION CARDS
 
 ## Faction Abilities and Cards (combo of )
-Creuss : Micro Wormhole ability card
-Nekro : Pay 1 research ability card
-Hacan : Trade 3 : 1 ability card
-Lizix : Reinforce into any fleet with 2 produce ability card
-Muaat : Build War Sun ability card
-Sardakk : May commit up to 4 ground forces before space combat for each carrier in fleet
-Arborec : Infantry do not count toward produce limits
 
 
 
