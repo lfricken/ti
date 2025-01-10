@@ -96,6 +96,8 @@ influence does not exist
 promisory notes do not exist
 some primary strategy cards have no secondary card associated
 during agenda phase each player places typically one vote for a Leader, that leader then reveals agenda and decides outcome
+you can only trade with special cards; You can trade Goods, Unresearched Unit Tech, Research Points, Ability Cards
+you cannot have multiple tech versions War Suns, Flagships, or Mechs
 
 
 
@@ -137,8 +139,11 @@ Imperial - commit home score any objective (repeat objective for center) OR draw
 
 
 ## Units
-* Dreadnought - Cost 4; Combat 5; Bombard 5; Sustain Damage;
+* Dreadnought - Cost 4; Combat 5; Bombard 5; Capacity 1; Sustain Damage;
 * Cruiser - Cost 2; Combat 7; Fast;
+* Destroyer - Cost 1; Combat 9; Fighter Bombard 8 x2; Fast;
+* Carrier - Cost 3; Combat 9; Capacity 4;
+* Fighter - Cost 1 for 2; Combat 9; Must be carr
 
 
 
