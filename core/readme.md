@@ -1,23 +1,23 @@
 
 
 ## Todo
+scattered, regroup, scrap
+write rules
+standard fleet 1 dread 2 cruiser 1 carrier 3 infantry 1 fighter
 xthian wormhole legendary rephrase Fleets in this system may load ground forces that are in the owners home system.
 type rules into readme.md file
 playtest
 
-1 dread 2 cruiser 1 carrier 3 infantry 1 fighter
 
 
 
 ## Concept
-Game board is cut down to a small number of systems. Gameplay is focused on combat, diplomacy, and economics, movement and positioning is basically removed.
+Twilight Imperium with fewer systems and simultaneous actions. Gameplay is focused on combat, diplomacy, and economics. Movement and positioning is basically removed.
 
 ## Mechanics
-Instead of command tokens, players have cards which are restored during strategy phase. When they play a card during a round, they cannot play it again that round unless they get it back somehow.
+Instead of command tokens, players have cards which are restored at the beginning of each round (called the strategy phase). When they play a card during a round, they cannot play it again that round unless they get it back somehow.
 
-Each turn every player simultaneously picks a card from their hand (tactics or abilities) then then get resolved.
-
-
+Each turn of an action phase, every player simultaneously and secretely commits two cards from their hand (fleet moves or abilities) then then get resolved at the same time.
 
 
 ## Play Phases
@@ -39,64 +39,50 @@ Each turn every player simultaneously picks a card from their hand (tactics or a
 
 
 ## Fleet Actions
-The board has 7 primary systems: Mecatol in center and 6 surrounding. Then a hex for each home system which is not connected to the board directly. You have a card for each of the primary ones, and one for _your_ home system. During tactical actions you select two cards, representing a Source and a Destination. You typically cannot select two primary systems. Fast ships .
+The board has 7 primary systems: Mecatol in center and 6 surrounding. Then a hex for each home system which is not connected to the board directly. You have a card for each of the primary ones (1 through 6 and center), and one for _your_ home system. Notice you cannot move into other players home systems. During tactical actions you select two cards, representing a Fleet number and a Destination. 
 
-When electing to load or or not ground forces: (clock wise speaker last) CWSL
+When electing to load, or not, any ground forces the order is (clock wise speaker last) CWSL which is the order for every ordering that could matter.
+
+If fleets land in the same system, they have combat where ships roll based on their combat value. At the end of each battle round, after hits have been assigned and ship destroyed, on both sides, one ship with the FAST trait and any other ship may decide to retreat (CWSL).
+
+After any space combat, you may commit forces to one planet for a ground invasion.
 
 
-## Scattered Forces
-When your forces retreat, they are assigned to the scattered forces pool. Units in the scattered forces pool may be built for free during the next and subsequent rounds.
+## Scattered and Regrouped Forces
+When your forces retreat, they are assigned to the scattered forces pool. At the end of each round, all scattered go to the regrouped forces pool. Units in the regrouped forces pool may be built at no resource cost during production. They still impact production limit.
 
 
 ## Scrap Pool
-Units that die are moved here. At the end of the round, the owner takes 
-
-
-## Quick Rule Changes
-max 5 major ships per fleet
-resolve one public objective end of round, one secret objective any time during round
-when units die you put their value in a pot where you get 50% of it as resources at end of round and remainder is saved
-may only elect to retreat TO home, cannot retreat from MR
-can never attack home systems
-no flagships
-planets have money placed onto them at the beginning of the round, until you spend the money from the planet, anyone can spend it/take
-during the strategy phase your resources value is set to 2 per planet
-influence does not exist
-commodity does not exist, Trade Goods now called goods
-transactions do not exist
-promisory notes redone
-PDS fires on ships activating the system
-Strategy cards come in two varieties, primaries and secondaries. Primaries can only be picked by one player, but everyone else may choose to pick a copy of the secondary. When a primary is played, the other players do not play the secondary, rather you can think of secondaries as just a weaker version of the strategy card that you cannot also play if you get the strategy card.
+Units that die are moved here. At the end of the round, the owner earns 50% of the value rounded down as Goods and removes the units.
 
 
 ## Technologies
-6 drawn randomly and available this game
-each player handed 4 random unique unit upgrades
+6 public techs drawn randomly and available this game
+each player handed 4 random unique unit techs only they can get
+Flagships and warsuns are not buildable without special unit tech
 
 
-Each Select 1 Strategy primary
-Each select 3 secondaries (or player special secondary ability card)
-Collect all your fleet cards
+## Strategy Phase
+First, each MAY select 1 Strategy primary OR 1 secondary
+Each select 4 secondaries (or faction specific secondary ability card)
+Then collect all your fleet cards for fleets you have on the board
 
 
-Let each player take up to 3 tactical fleet moves and 4 actions alternating, start and end with abilities. 1 of the actions is likely a strategy card. 
-_UNTIL DONE MOVING AND ABILITIES_
-
-Move phase
-Pick a fleet, direction, modifier cards
-May merge fleet immediately fleet token back
-Invade and decide which ground forces or fighters are on planets.
-
-Ability
-$2 per planet (planet can have other modifiers)
-Construct 4/2
-Produce 4
-Research 4
-Victory 
-Strategy Card
-Action Card
-
-... REPEAT
+## Quick Rules
+only commit forces from fleet onto one planet per fleet phase
+all forces must land on planets after invasion if able
+commodity does not exist, Trade Goods now called Goods
+max 5 major ships per fleet
+max 2 fleets per system
+resolve one public objective end of round, one secret objective during the round, at end of any phase during the action phase
+may only elect to retreat TO home, cannot retreat from MR
+can never attack home systems
+no flagships or warsuns without specific tech
+planets have money placed onto them at the beginning of the round, until you spend the money from the planet, anyone can spend it/take
+during the strategy phase your resources value is set to 2 per planet
+influence does not exist
+promisory notes do not exist
+some primary strategy cards have no secondary card associated
 
 
 
