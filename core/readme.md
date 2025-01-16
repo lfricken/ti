@@ -1,7 +1,10 @@
 
 
 ## Todo
-type rules into readme.md file
+listen blackbird
+max 3 fleets
+
+type more rules into readme.md file
 xthian wormhole legendary rephrase Fleets in this system may load ground forces that are in the owners home system.
 playtest
 
@@ -21,10 +24,13 @@ Each turn of an action phase, every player simultaneously and secretely commits 
 
 
 ## Setup
-* set up fleets in home systems: 2 cruiser 1 carrier 2 infantry 1 fighter
-* shuffle ship tech and deal 4 each player
-* shuffle public tech show 6
+* 1 two way hyperlane with 3, 4 base, +1 wormhole with 5+ players, +1 res home with 6
+* system numbers
+* create 2 fleet in home system: (2 cruiser 1 carrier) + (1 destroyer 1 carrier) + (3 infantry 2 fighters)
+* deal 1 secret obj each player
 * reveal 2 public obj
+* deal 4 ship tech each player
+* show 6 public tech
 
 
 
@@ -49,7 +55,7 @@ Each turn of an action phase, every player simultaneously and secretely commits 
 ## Fleet Actions
 The board has 7 primary systems: Mecatol in center and 6 surrounding. Then a hex for each home system which is not connected to the board directly. You have a card for each of the primary ones (1 through 6 and center), and one for _your_ home system. Notice you cannot move into other players home systems. During tactical actions you select two cards, representing a Fleet number and a Destination. 
 
-When electing to load, or not, any ground forces the order is (clock wise speaker last) CWSL which is the order for every ordering that could matter.
+When electing to load or not, any CARRIED units, the order is (clock wise speaker last) CWSL which is the order for every ordering that could matter.
 
 If fleets land in the same system, they have combat where ships roll based on their combat value. At the end of each battle round, after hits have been assigned and ship destroyed, on both sides, one ship with the FAST trait and any other ship may decide to retreat (CWSL).
 
@@ -82,22 +88,22 @@ Then collect all your fleet cards for fleets you have on the board
 
 
 ## Quick Rules
-only commit forces from fleet onto up to one planet per fleet phase
-all ground forces must land on planets AFTER invasions if able
-commodity does not exist, Trade Goods now called Goods
-max 5 major ships per fleet
-max 1 fleet per system per player
-resolve one public objective end of round, one secret objective during the round, at end of any phase during the action phase
-can never attack home systems
-no flagships or warsuns without specific tech
-planets have money placed onto them at the beginning of the round, until you spend the money from the planet, anyone can spend it/take
-during the strategy phase your resources value is set to 2 per planet
-influence does not exist
-promisory notes do not exist
-some primary strategy cards have no secondary card associated
-during agenda phase each player places typically one vote for a Leader, that leader then reveals agenda and decides outcome
-you can only trade with special cards; You can trade Goods, Unresearched Unit Tech, Research Points, Ability Cards
-you cannot have multiple tech versions War Suns, Flagships, or Mechs
+* only commit forces from fleet onto up to one planet per fleet phase
+* all ground forces must land on planets AFTER invasions if able
+* commodity does not exist, Trade Goods now called Goods
+* max 5 major ships per fleet
+* max 1 fleet per system per player
+* resolve one public objective end of round, one secret objective during the round, at end of any phase during the action phase
+* can never attack home systems
+* no flagships or warsuns without specific tech
+* planets have money placed onto them at the beginning of the round, until you spend the money from the planet, anyone can spend it/take
+* during the strategy phase your resources value is set to 2 per planet
+* influence does not exist
+* promisory notes do not exist
+* some primary strategy cards have no secondary card associated
+* during agenda phase each player places typically one vote for a Leader, that leader then reveals agenda and decides outcome
+* you can only trade with special cards; You can trade Goods, Unresearched Unit Tech, Research Points, Ability Cards
+* you cannot have multiple tech versions War Suns, Flagships, or Mechs, recycle them if you do
 
 
 
