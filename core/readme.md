@@ -2,14 +2,13 @@
 
 ## Todo
 listen blackbird
-max 3 fleets
 
 type more rules into readme.md file
 xthian wormhole legendary rephrase Fleets in this system may load ground forces that are in the owners home system.
 playtest
 
 
-
+Keeping up with the Kardashevians
 
 ## Concept
 Twilight Imperium with fewer systems and simultaneous actions. Gameplay is focused on combat, diplomacy, and economics. Movement and positioning is basically removed.
@@ -35,7 +34,7 @@ Each turn of an action phase, every player simultaneously and secretely commits 
 
 
 ## Play Phases
-    Strategy Phase - Pick cards
+    Strategy Phase - Pick three ability cards
 
     { Action Phase
         Abilities 1 Begin - play ability cards
@@ -44,7 +43,6 @@ Each turn of an action phase, every player simultaneously and secretely commits 
         Fleet 2
         Abilities 3
         Fleet 3
-        Abilities 4 End
     }
 
     Status Phase - Return fleet cards you have on the board to your hand, reveal objs
@@ -80,76 +78,57 @@ Flagships and warsuns are not buildable without special unit tech
 
 
 
-## Strategy Phase
-First, each MAY select 1 Strategy primary OR 1 secondary
-Each select 4 secondaries (or faction specific secondary ability card)
-Then collect all your fleet cards for fleets you have on the board
-
-
-
 ## Quick Rules
-* only commit forces from fleet onto up to one planet per fleet phase
-* all ground forces must land on planets AFTER invasions if able
-* commodity does not exist, Trade Goods now called Goods
-* max 5 major ships per fleet
+* may only invade one planet per fleet phase
+* max 5 non-fighter ships per fleet. No fighter limit
 * max 1 fleet per system per player
-* resolve one public objective end of round, one secret objective during the round, at end of any phase during the action phase
+* max 2 structures per planet
+* ships must be in a fleet
+* all ground forces must land on planets AFTER invasions if able
+* resolve one public objective end of round, one secret objective during the round
 * can never attack home systems
-* no flagships or warsuns without specific tech
 * planets have money placed onto them at the beginning of the round, until you spend the money from the planet, anyone can spend it/take
 * during the strategy phase your resources value is set to 2 per planet
 * influence does not exist
 * promisory notes do not exist
 * some primary strategy cards have no secondary card associated
 * during agenda phase each player places typically one vote for a Leader, that leader then reveals agenda and decides outcome
-* you can only trade with special cards; You can trade Goods, Unresearched Unit Tech, Research Points, Ability Cards
+* you can only trade with special abilities; You can trade Goods, Unresearched Unit Tech, Research Points, Ability Cards
 * you cannot have multiple tech versions War Suns, Flagships, or Mechs, recycle them if you do
 
 
+## Traits
+* COMBAT - Rolls dice during combat, where X or less is a hit. X are the odds out of 10 for a hit.
+* CARRIED - May be moved around by units with Capacity. Carried units in space that do not have enough Capacity are destroyed.
+* GROUND-AREA - Must reside on a planet at the end of each phase if there is a friendly planet available.
+* SPACE-AREA - Must always be in a system. May not land on planets.
+* STRUCTURE - Placed in one area and may not move. May be assigned combat hits.
+* FAST - During the retreat step, one additional FAST ship may retreat.
+* BOMBARD - Lets units shoot into in nearby combat. This unit may fire in every space-area AND ground-area combat round that occurs in its system, but the unit may only absorb hits if the combat is in its combat area.
+* SUSTAIN DAMAGE - Each battle, may cancel one hit.
+* FIRST-STRIKE - Fires one initial volley before the combat rounds. Units destroyed by them do not fire back. May combine with the Bombard trait.
+* SHIELD - Each combat round, each shield may cancel one hit caused by the Bombard trait.
+
+## Anomalies
+* Trade Route - This anomaly acts like a planet with resources, where the owner is the player with a fleet in the system.
+* Nebula - All units have +1 Combat value (+10% chance of hitting)
+* Alpha Wormhole - One additional ship may retreat each retreat phase
+* Magnetar - Each combat round, one unit may roll one additional die
+* Supernova - No unit may use the sustain damage trait
+* Gravity Rift - Fleets in this system may move to any other system.
+
 
 ## Strategy Cards : Primaries and Secondaries
-Order always goes: clockwise speaker last if any player wants to wait for another before taking their action. So a player can delay their action until it is their "turn" players that would go after them may choose to go before. You can otherwise resolve things in any order.
+Order always goes: clockwise speaker last if any player wants to wait for another before taking their action. So a player can delay their action until it is their "turn".
+
 These are treated as abilities. During the Strategy Phase you go in a circle where you all at once pick one Primary Card and two Secondary cards, or three Secondary Cards. The symbol `::::` means you cannot pick both the Primary Card and the Secondary Card, you must pick one or neither. As your last ability for the round, you may use any from your hand or any Primary Card you have not used this round. You cannot pick multiples of Secondary cards.
 
 
 Construct New Fleet - Put a new fleet marker on the board and build units into it. This fleet cannot move this round since you don't have the fleet card in your hand! You could put it into your hand with the Warfare card though!
 
 
-## Primaries:
-* __Trade__ - :::: commit system with another players ships. you gain 4 trade goods and they gain 2, you may do any# transactions with one person
-* __Politics__ - :::: commit home. Become speaker, or move it to your right if you are currently it, draw 2 action cards, reorder top agenda to top or bottom ::::
-* __Warfare__ - :::: commit system. Pick up a fleet card for a fleet in that system ::::
-
-* __Construction__ - :::: Commit system and place 1 SD or 1 PDS and also then 1 PDS on a planet you control in it ::::
-* __Technology__ - :::: commit a tech whether or not you can pay for it and Redraw any # ship techs in your hand, gain 1 lab free OR gain all planets, then you may buy the committed tech or a public tech
-
-* __Industry__ - commit system gain 1 trade good for each resource you control in this system
-* __Diplomacy__ - commit system, other players may not use this system card for fleet tactical actions
-* __Manufacturing__ - commit system Produce New Fleet with +2 resource and +2 produce limit
-* __Imperial__ commit home Add 2 secret obj to hand, then discard 1
 
 
-
-## Secondaries:
-Trade II - :::: (Exclusive With Primary) - commit system with another players ships. You gain 2 trade goods they gain 1
-Politics II - :::: (Exclusive With Primary) commit home Draw 2 action cards and keep 1
-Warfare II - :::: (Exclusive With Primary) - commit system Produce New Fleet at target system
-
-Construction II - :::: (Exclusive With Primary) - commit system Place a Space dock OR PDS
-Research - commit a tech whether or not you can pay for it, gain 1 lab by paying 4 resources OR gain all from planets, then you may buy the committed tech OR any public tech
-
-Reinforce - commit system Produce into existing fleet in the system
-Leadership - commit system Split or merge fleets there. a fleet split for an expended fleet results in two expended fleets (a ship could never move twice from this ability)
-Imperial - commit home score any objective (repeat objective for center) OR draw 1 secret objective
-
-
-
-## Units
-* Dreadnought - Cost 4; Combat 5; Bombard 5; Capacity 1; Sustain Damage;
-* Cruiser - Cost 2; Combat 7; Fast;
-* Destroyer - Cost 1; Combat 9; Fighter Bombard 8 x2; Fast;
-* Carrier - Cost 3; Combat 9; Capacity 4;
-* Fighter - Cost 1 for 2; Combat 9; Must be carr
 
 
 
