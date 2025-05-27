@@ -1,17 +1,15 @@
 
 
 ## Todo
-add action card harvest all planets to goods
-check public obj
-check secret obj
+balance public tech colors
 add fleet blockers to every system
-
 type more rules into readme.md file
+
+
+
 xthian wormhole legendary rephrase Fleets in this system may load ground forces that are in the owners home system.
 playtest
 
-
-Keeping up with the Kardashevians
 
 ## Concept
 Twilight Imperium with fewer systems and simultaneous actions. Gameplay is focused on combat, diplomacy, and economics. Movement and positioning is basically removed.
@@ -36,7 +34,7 @@ Each turn of an action phase, every player simultaneously and secretely commits 
 
 
 
-## Play Phases
+## Phases Overview
     Strategy Phase - Pick three ability cards, up to one Primary
 
     { Action Phase
@@ -48,17 +46,29 @@ Each turn of an action phase, every player simultaneously and secretely commits 
         Fleet 3
     }
 
-    Status Phase - Return fleet cards you have on the board to your hand, reveal objs
-    Trade and trade Phase - elect one player, they do one random agenda power
+    { Status Phase
+        Return fleet cards to your hand
+        Reveal objectives
+        Trade
+        Player with most Influence is Leader
+        Leader draws and resolve one random agenda power
+        Replenish planets and influence tokens
+    }
 
 
 
 
-## Step by Step
+## Step by Step Gameplay
 1. Test1 
 
     1. Test1
     1. Test2
+        1. Test2
+1. Test2
+1. Test2
+    1. Test1
+    1. Test2
+        1. Test2
 
 
 
