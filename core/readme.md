@@ -1,7 +1,10 @@
 
 
 ## Todo
-listen blackbird
+add action card harvest all planets to goods
+check public obj
+check secret obj
+add fleet blockers to every system
 
 type more rules into readme.md file
 xthian wormhole legendary rephrase Fleets in this system may load ground forces that are in the owners home system.
@@ -34,7 +37,7 @@ Each turn of an action phase, every player simultaneously and secretely commits 
 
 
 ## Play Phases
-    Strategy Phase - Pick three ability cards
+    Strategy Phase - Pick three ability cards, up to one Primary
 
     { Action Phase
         Abilities 1 Begin - play ability cards
@@ -47,6 +50,16 @@ Each turn of an action phase, every player simultaneously and secretely commits 
 
     Status Phase - Return fleet cards you have on the board to your hand, reveal objs
     Trade and trade Phase - elect one player, they do one random agenda power
+
+
+
+
+## Step by Step
+1. 
+{
+    1. Test
+    1. Test
+}
 
 
 
@@ -84,6 +97,7 @@ Flagships and warsuns are not buildable without special unit tech
 * max 1 fleet per system per player
 * max 2 structures per planet
 * ships must be in a fleet
+* resources respawn on planets at the beginning of each round and may be spent. Goods are resources that sit in your storage vault and can be traded. Goods may be used in place of resources always.
 * all ground forces must land on planets AFTER invasions if able
 * resolve one public objective end of round, one secret objective during the round
 * can never attack home systems
