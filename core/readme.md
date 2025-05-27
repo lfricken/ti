@@ -55,11 +55,11 @@ Each turn of an action phase, every player simultaneously and secretely commits 
 
 
 ## Step by Step
-1. 
-{
-    1. Test
-    1. Test
-}
+1. Test1 
+
+    1. Test1
+    1. Test2
+
 
 
 
