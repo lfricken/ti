@@ -1,9 +1,11 @@
 
 
 ## Todo
-balance public tech colors
-add fleet blockers to every system
+find out staples card stock printing 
 type more rules into readme.md file
+add fleet blockers to every system
+condense to printables
+create card backs
 
 
 
@@ -30,7 +32,7 @@ Each turn of an action phase, every player simultaneously and secretely commits 
 * deal 1 secret obj each player
 * reveal 2 public obj
 * deal 4 ship tech each player
-* show 6 public tech
+* show 4 public tech
 
 
 
@@ -118,7 +120,7 @@ Flagships and warsuns are not buildable without special unit tech
 * some primary strategy cards have no secondary card associated
 * during agenda phase each player places typically one vote for a Leader, that leader then reveals agenda and decides outcome
 * you can only trade with special abilities; You can trade Goods, Unresearched Unit Tech, Research Points, Ability Cards
-* you cannot have multiple tech versions War Suns, Flagships, or Mechs, recycle them if you do
+* other players may not research your unit tech, but multiple players may adopt public tech
 
 
 ## Traits
@@ -138,17 +140,9 @@ Flagships and warsuns are not buildable without special unit tech
 * Nebula - All units have +1 Combat value (+10% chance of hitting)
 * Alpha Wormhole - One additional ship may retreat each retreat phase
 * Magnetar - Each combat round, one unit may roll one additional die
-* Supernova - No unit may use the sustain damage trait
 * Gravity Rift - Fleets in this system may move to any other system.
 
 
-## Strategy Cards : Primaries and Secondaries
-Order always goes: clockwise speaker last if any player wants to wait for another before taking their action. So a player can delay their action until it is their "turn".
-
-These are treated as abilities. During the Strategy Phase you go in a circle where you all at once pick one Primary Card and two Secondary cards, or three Secondary Cards. The symbol `::::` means you cannot pick both the Primary Card and the Secondary Card, you must pick one or neither. As your last ability for the round, you may use any from your hand or any Primary Card you have not used this round. You cannot pick multiples of Secondary cards.
-
-
-Construct New Fleet - Put a new fleet marker on the board and build units into it. This fleet cannot move this round since you don't have the fleet card in your hand! You could put it into your hand with the Warfare card though!
 
 
 
