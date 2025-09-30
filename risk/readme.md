@@ -4,8 +4,7 @@ NEW GAME Split and choose economy with cards to convert resources to assets
 ## Todo
 https://docs.google.com/spreadsheets/d/1_8SCrwEjJR9Tnw8rk5zlmHDKMikOHP7_cvvGdh7FirI/edit?gid=367601247#gid=367601247
 
-simple setup and play algorithm md file
-test solo in TTS 
+run a simulated two player in TTS
 
 
 find out staples card stock printing 
@@ -13,11 +12,6 @@ type more rules into readme.md file
 add fleet blockers to every system
 condense to printables
 create card backs
-
-
-
-xthian wormhole legendary rephrase Fleets in this system may load ground forces that are in the owners home system.
-playtest
 
 
 ## Concept
@@ -43,56 +37,6 @@ Each turn of an action phase, every player simultaneously and secretely commits 
 
 
 
-## Phases Overview
-    Strategy Phase - Pick three ability cards, up to one Primary
-
-    { Action Phase
-        Abilities 1 Begin - play ability cards
-        Fleet 1 - play a from and to card
-        Abilities 2
-        Fleet 2
-        Abilities 3
-        Fleet 3
-    }
-
-    { Status Phase
-        Return fleet cards to your hand
-        Reveal objectives
-        Trade
-        Player with most Influence is Leader
-        Leader draws and resolve one random agenda power
-        Replenish planets and influence tokens
-    }
-
-
-
-
-## Step by Step Gameplay
-1. Test1 
-
-    1. Test1
-    1. Test2
-        1. Test2
-1. Test2
-1. Test2
-    1. Test1
-    1. Test2
-        1. Test2
-
-
-
-
-## Fleet Actions
-The board has 7 primary systems: Mecatol in center and 6 surrounding. Then a hex for each home system which is not connected to the board directly. You have a card for each of the primary ones (1 through 6 and center), and one for _your_ home system. Notice you cannot move into other players home systems. During tactical actions you select two cards, representing a Fleet number and a Destination. 
-
-When electing to load or not, any CARRIED units, the order is (clock wise speaker last) CWSL which is the order for every ordering that could matter.
-
-If fleets land in the same system, they have combat where ships roll based on their combat value. At the end of each battle round, after hits have been assigned and ship destroyed, on both sides, one ship with the FAST trait and any other ship may decide to retreat (CWSL).
-
-After any space combat, you may commit forces to one planet for a ground invasion.
-
-
-
 ## Scattered and Regrouped Forces
 When your forces retreat, they are assigned to the Scattered Forces pool. At the end of each round, all scattered go to the regrouped forces pool. Units in the regrouped forces pool may be built at no resource cost during production. They still impact the produce limit.
 
@@ -111,8 +55,6 @@ Flagships and warsuns are not buildable without special unit tech
 
 
 ## Quick Rules
-* may only invade one planet per fleet phase
-* max 5 non-fighter ships per fleet. No fighter limit
 * max 1 fleet per system per player
 * max 2 structures per planet
 * ships must be in a fleet
@@ -126,8 +68,6 @@ Flagships and warsuns are not buildable without special unit tech
 * promisory notes do not exist
 * some primary strategy cards have no secondary card associated
 * during agenda phase each player places typically one vote for a Leader, that leader then reveals agenda and decides outcome
-* you can only trade with special abilities; You can trade Goods, Unresearched Unit Tech, Research Points, Ability Cards
-* other players may not research your unit tech, but multiple players may adopt public tech
 
 
 ## Traits
