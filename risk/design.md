@@ -1,7 +1,10 @@
 
 
+Ability Phase
+Fleet Phase
+
 ## Design
-Reduce player decisions after the fact of picking cards. This prevents order dependencies. Also consider variables in flux at a phase, and prevent input variables from changing.
+Reduce player decisions after the fact of picking cards.
 
 Variables:
 * Commodities
@@ -38,5 +41,10 @@ Variables that can change during the ability action, and thus cards that depend 
 * action card  __Warp Lock__ - commit system No player may retreat from that system for remainder of the round
 * action card __Micro Wormhole__ - commit system Any fleet of yours commit that system during fleet actions this round
 
+
+
+## Invasion and Ground Combat
+* Attacker may always retreat at the begining of any combat round into the space area
+* Dreadnoughts that participate in ground combat can be destroyed by enemy attacks
 
 

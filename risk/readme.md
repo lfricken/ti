@@ -1,7 +1,13 @@
 
-
+NEW GAME Split and choose economy with cards to convert resources to assets
 
 ## Todo
+https://docs.google.com/spreadsheets/d/1_8SCrwEjJR9Tnw8rk5zlmHDKMikOHP7_cvvGdh7FirI/edit?gid=367601247#gid=367601247
+
+simple setup and play algorithm md file
+test solo in TTS 
+
+
 find out staples card stock printing 
 type more rules into readme.md file
 add fleet blockers to every system
@@ -88,7 +94,7 @@ After any space combat, you may commit forces to one planet for a ground invasio
 
 
 ## Scattered and Regrouped Forces
-When your forces retreat, they are assigned to the scattered forces pool. At the end of each round, all scattered go to the regrouped forces pool. Units in the regrouped forces pool may be built at no resource cost during production. They still impact the produce limit.
+When your forces retreat, they are assigned to the Scattered Forces pool. At the end of each round, all scattered go to the regrouped forces pool. Units in the regrouped forces pool may be built at no resource cost during production. They still impact the produce limit.
 
 
 
