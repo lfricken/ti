@@ -1,22 +1,25 @@
 
-## INFLUENCE & CONFLICT
-
-
-## SETUP
-1. Planet count is 4 + 1 for Each player beyond 4 
-1. Players get 4 influence tokens to place among planets of their choice going clockwise. Max 1 per planet.
-1. Start with 2 random fleet cards, 2 random agents.
 
 
 ## OVERVIEW
+1. This is an expansion of the game Coup, where Influence replaces money. Agents are the hidden cards
 1. The last surviving player wins.
-1. Players with at least 1 Agent may bluff about which Agent they have.
-1. Players are eliminated when they have no Influence on the board OR they would lose an Agent but have none.
-1. Players use fleets 
+1. Players are eliminated when they have no Influence on any planet OR they would lose an Agent but have none.
+1. Planets have special abilities that are gained the first time it is captured (only one player has influence on it)
+1. Players use fleets to remove influence on planets.
+1. Special Benefit cards exist on planets and in players hands. If a player is the sole 
+
+
+## SETUP
+1. Place planets: count is 4 + 1 for Each player beyond 4
+1. Place a random Benefit card, revealed, next to each planet
+1. Players get 4 influence tokens to place among planets of their choice going clockwise, placing 1 each turn. Max 1 per planet in this phase.
+1. Players gain 2 random fleet cards, and 2 random agents.
+1. Players gain a random Secret Objective and Secret Benefit
 
 
 ## COMMON POWERS LIST
-1. Move: Deploy, Replace, or Retract your Fleet. Place it next in line for fleet priority.
+1. Move: Deploy, Replace, or Retract a Fleet. Place it last in line for fleet priority.
 1. Construct: Take the top fleet card
 1. Enforce: At EACH of your fleet locations, you may choose to start a Conflict
 1. Denounce: Spend 2 influence tokens and pick a player to lose an Agent
@@ -24,26 +27,39 @@
 
 ## AGENT POWERS LIST
 1. Commander: Take 3 fleets from the fleet deck. Put them on top or bottom in any order, keep one.
-1. Assassin:  Take influence from one of your fleet locations (no vote)
+1. Strike:  Take influence from a planet your fleet orbits (no voting)
 1. Mole: Block assassination
-1. Saboteur: Examine any deployed fleet. You may force the owning player to: discard it, draw the top fleet deck card 
-1. Investigator: Pick a player with Agents and examine a random one of theirs, and draw a new agent from the deck. Choose one for them to keep and one to discard.
+1. Saboteur: Examine any deployed fleet. You may force the owning player to: discard it and replace it with the top fleet deck card 
+1. Investigator: Pick a player with Agents. Examine a random one of theirs, and draw a new agent from the deck. Choose one for them to keep and one to discard.
 
 
 ## CONFLICT
-* Short: Players with fleets vote or abstain to remove influence. Disagreements cause combat which is resolved via one round Liars Dice. Losers lose influence and their fleet.
-* Detailed: When a Conflict starts at a planet: the initiating player moves their fleet to the top of the fleet priority list of this planet, shifting the rest downward. Going clockwise, starting with the initiating player, players with fleets may elect any player to lose influence. Go clockwise once more to allow players to change their decision, including to abstain or not. Once each player has had 2 chances to vote, resolve the Conflict: Each player that is not abstaining reveals their fleet strength and participates in a modified game of liars dice until the remaining players have no disagreements. Once the conflict is entirely resolved, eliminated players lose their fleet and forfeit their influence on the planet to the highest priority
+* Short: Players with fleets vote or abstain to remove influence. Disagreements cause combat which is resolved via single elimination Liars Dice. Losers lose influence and their fleet.
+* Detailed: When a Conflict starts at a planet: the initiating player moves their fleet to the top of the fleet priority list of this planet, shifting the rest downward. Going clockwise, starting with the initiating player, players with fleets may elect any player to lose influence. Go clockwise once more to allow players to change their decision, including to abstain or not. Once each player has had 2 chances to vote, resolve the Conflict via Combat.
 
 
-## COMBAT LIARS DICE CHANGES:
+## COMBAT
+* Each player that is not abstaining reveals their fleet strength. They participate in modified rounds of liars dice until the remaining players have no disagreements. Once the conflict is entirely resolved, eliminated players lose their fleet and forfeit their influence on the planet to the highest priority fleet owner. The voted player also loses their influence to them.
+1. The starting player of each round is the one with highest fleet priority
 1. A player that would lose a dice is immediately eliminated
-1. In reverse clockwise order, any player may claim LIAR even if it is not their turn to do so.
+1. In reverse clockwise order from the last player, ANY participating player may claim liar or pass. Then the next player may take their turn.
 
 Planets with special abilities. You execute the special ability IFF you gain the planet. You gain the planet if you are the only one with influence on it.
 
 
 ## NOTES:
-1. Examine means to secretly read. You cannot show the card to others.
+1. When a planet is captured for the first time, the player with influence gains the Benefit.
+1. You can only have one of your fleets on any given planet.
+1. The phrase Examine means to secretly read. You cannot show the card to others.
+
+
+## EXAMPLE:
+1. The Red player has a fleet card here. Only they know its strength.
+1. The Blue player has a fleet of strength 8 here. This is known to everyone as it is revealed.
+1. Even though Red controls this planet and has already gained the Benefit (described below the planet) they can still have their influence removed by the Green fleet.
+1. Blue controls this planet, but would lose the benefit if their influence gets removed from it, since the Benefit 
+![example play image](sample.PNG "See below for description")
+
 
 
 ## SECRET CONDITIONS LIST
@@ -53,7 +69,7 @@ Planets with special abilities. You execute the special ability IFF you gain the
 1. When you successfully call a bluff on an Agent action
 1. When you capture a planet
 1. When you have 3 stored influence
-1. When you 
+1. When another player is eliminated in Combat you are participating in
 
 
 ## BENEFITS LIST
