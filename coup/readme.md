@@ -37,8 +37,8 @@
 
 ## AGENT POWERS LIST
 1. Commander: Take 3 fleets from the fleet deck. Put them on top or bottom in any order, keep one.
-1. Strike:  Take influence from a planet your fleet orbits (no voting)
-1. Mole: Block assassination
+1. Assassin:  Take an influence from a planet one of your fleets orbit
+1. Decoy: Block assassination
 1. Saboteur: Examine any deployed fleet. You may force the owning player to: discard it and replace it with the top fleet deck card 
 1. Investigator: Pick a player with Agents. Examine a random one of theirs, and draw a new agent from the deck. Choose one for them to keep and one to discard.
 
@@ -97,8 +97,9 @@ Planets with special abilities. You execute the special ability IFF you gain the
 1. Immediately discard this, then examine all cards of another player
 
 
-## FLEET STRENGTH LIST
-* Four of each of these values: 3, 4, 5, 6, 7, 8, 9
+## NEW IDEAS
+* Events - Inject into the game: Examine X, Influence, agents, planets, etc.
+* Prisoner Dilemma game - Trade and gain Influence
 
 
 
@@ -107,4 +108,9 @@ run a simulated two player in TTS
 find out staples card stock printing
 condense to printables
 create card backs
+
+
+
+## Table Top Simulator Instructions
+* For Influence use Objects > Components > Player Pawns
 
