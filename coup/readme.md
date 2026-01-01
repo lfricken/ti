@@ -2,24 +2,34 @@
 
 
 ## OVERVIEW
-1. This is an expansion of the game Coup, where Influence replaces money. Agents are the hidden cards
+1. This is an expansion of the game Coup, where Influence replaces money. Agents are the hidden cards with special abilities
 1. The last surviving player wins.
-1. Players are eliminated when they have no Influence on any planet OR they would lose an Agent but have none.
-1. Planets have special abilities that are gained the first time it is captured (only one player has influence on it)
+1. Players are eliminated when they have no Influence on any planet OR they would lose an Agent but have none left.
+1. Planets have special abilities that are gained upon capture. Planets are captured when only one player has influence on it.
 1. Players use fleets to remove influence on planets.
-1. Special Benefit cards exist on planets and in players hands. If a player is the sole 
+1. Special Benefit cards exist on planets and in players hands. If a player is the sole
+
+
+## CARDS
+* Agents - Similar to Coup ability cards.
+* Benefits - One per planet, to be gained for control. And one to each player, to be gained for completing your Secret Objective.
+* Secret Objectives - You start the game with one. Upon satisfying the requirements, gain your secret benefit.
+* Fleet - Contain a random number in the range [3,9] which decides how many dice you get during liars dice combat.
 
 
 ## SETUP
 1. Place planets: count is 4 + 1 for Each player beyond 4
 1. Place a random Benefit card, revealed, next to each planet
 1. Players get 4 influence tokens to place among planets of their choice going clockwise, placing 1 each turn. Max 1 per planet in this phase.
-1. Players gain 2 random fleet cards, and 2 random agents.
-1. Players gain a random Secret Objective and Secret Benefit
+1. Players start with:
+* 2 random Fleets
+* 2 random Agents
+* a random Secret Objective 
+* a random Secret Benefit
 
 
 ## COMMON POWERS LIST
-1. Move: Deploy, Replace, or Retract a Fleet. Place it last in line for fleet priority.
+1. Move: Deploy, Replace, or Retract a Fleet. When deploying, place it last in line for fleet priority.
 1. Construct: Take the top fleet card
 1. Enforce: At EACH of your fleet locations, you may choose to start a Conflict
 1. Denounce: Spend 2 influence tokens and pick a player to lose an Agent
@@ -55,9 +65,9 @@ Planets with special abilities. You execute the special ability IFF you gain the
 
 ## EXAMPLE:
 1. The Red player has a fleet card here. Only they know its strength.
-1. The Blue player has a fleet of strength 8 here. This is known to everyone as it is revealed.
-1. Even though Red controls this planet and has already gained the Benefit (described below the planet) they can still have their influence removed by the Green fleet.
-1. Blue controls this planet, but would lose the benefit if their influence gets removed from it, since the Benefit 
+1. The Blue player has a fleet of strength 8 here. This is known to everyone, as it is already revealed.
+1. Even though Red controls this planet, and has already gained the Benefit, (described below the planet) they can still have their influence removed by the Green fleet.
+1. Blue controls this planet, but would lose the benefit if their influence gets removed from it, since the Benefit is not a one time event.
 ![example play image](sample.PNG "See below for description")
 
 
@@ -65,42 +75,35 @@ Planets with special abilities. You execute the special ability IFF you gain the
 ## SECRET CONDITIONS LIST
 1. When the player that starts to your left is eliminated
 1. When the player that starts to your right is eliminated
-1. When you have 3 fleets on the board
+1. When you have 3 or more fleets on the board
 1. When you successfully call a bluff on an Agent action
 1. When you capture a planet
-1. When you have 3 stored influence
+1. When you have 2 or more stored influence
 1. When another player is eliminated in Combat you are participating in
 
 
 ## BENEFITS LIST
-1. Gain an Influence token to spend at the beginning of each of your turns
+1. Gain an Influence token at the beginning of each of your turns
 1. Gain 2 dice when participating in any Conflict
 1. Gain 3 dice when participating in any Conflict
-1. Immediately rearrange the fleets on up to two planets
-1. Immediately draw 2 fleet cards
-1. Immediately pick any deployed fleet and discard it
-1. Immediately take one influence from any planet
-1. Immediately gain 1 Agent if you have lost any
-1. Immediately place one influence of any player onto any planet
-1. Immediately Choose a player to lose an Agent
-1. Immediately move one of any influence from one planet to another
+1. Immediately discard this, then rearrange the fleets on up to two planets
+1. Immediately discard this, then draw 2 fleet cards
+1. Immediately discard this, then pick any deployed fleet and discard it
+1. Immediately discard this, then take one influence from any planet
+1. Immediately discard this, then gain 1 Agent if you have lost any
+1. Immediately discard this, then place one influence of any player onto any planet
+1. Immediately discard this, then Choose a player to lose an Agent
+1. Immediately discard this, then move one of any influence from one planet to another
+1. Immediately discard this, then examine all cards of another player
 
 
 ## FLEET STRENGTH LIST
 * Four of each of these values: 3, 4, 5, 6, 7, 8, 9
 
 
-## TODO DESIGN
-Penalties for bluffing or failing call? Lose agent. Cannot bluff and Next wrong call kills you.
-Secret objectives need careful consideration:
-
-
 
 ## TODO
-
 run a simulated two player in TTS
-
-
 find out staples card stock printing
 condense to printables
 create card backs
