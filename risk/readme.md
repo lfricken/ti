@@ -42,6 +42,7 @@ When your forces retreat, they are assigned to the Scattered Forces pool. At the
 
 
 
+
 ## Scrap Pool
 Units that die are moved here. At the end of the round, the owner earns 50% of the value rounded down as Goods and removes the units.
 

@@ -2,6 +2,7 @@
 
 # Sequence of Play
 
+First, shuffle all cards and systems into piles
 
 ## Empire Setup
 1. Place a home system near you
@@ -48,7 +49,7 @@ For each step, you play a pair of cards face down, then everyone reveals them an
 
 ## Space Combat
 1. A fleet shoots at the first fleet that is both in its system, and whos owner is sitting clockwise
-1. Shots are made with 6 sided dice and hit on a 2 or less
+1. Shots are made with 6 sided dice and hit on a 5 or more
 1. Shooting is simultaneous
 1. At the end of each round of shooting, empires may optionally pick 2 units to retreat to Scattered Forces
 
