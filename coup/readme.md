@@ -27,7 +27,7 @@
 * a random Secret Objective 
 * a random Secret Benefit
 * 0 Stored Influence
-1. Examine your cards, then players get 4 Planetary Influence to place among planets of their choice going clockwise, placing 1 each turn. Max 1 per planet in this phase.
+1. Examine your cards, then players get 3 Planetary Influence to place among planets of their choice going clockwise, placing 1 each turn. Max 1 per planet in this phase.
 
 
 ## COMMON POWERS LIST
