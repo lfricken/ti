@@ -38,7 +38,7 @@
 
 
 ## AGENT POWERS LIST
-1. Saboteur: Twice you may: Examine any deployed fleet, may force the owning player to replace it with the top fleet card. Then, you alone may examine it
+1. Saboteur: Twice you may: Examine any deployed fleet and the top Fleet card. You may choose one to redeploy face down, and one to discard.
 1. Commander: Take 3 fleets from the fleet deck. Put them on top or bottom in any order, keep one.
 1. Assassin:  Destroy one Planetary influence on a planet one of your fleets orbit
 1. Decoy: May block assassination and Insurgency if you have a Fleet or Influence on the targetted planet. A player Denouncing you must spend an additional influence
@@ -90,7 +90,7 @@ You gain the planet benefit if you are the only one with Planetary Influence on 
 1. Persistent: Gain a Stored Influence at the beginning of each of your turns
 1. Persistent: Gain 2 dice when participating in any Conflict
 1. Persistent: Gain 3 dice when participating in any Conflict
-1. Immediately discard this, then rearrange the fleets on up to two planets
+1. Immediately discard this, then examine two fleet cards, and you may deploy one
 1. Immediately discard this, then draw 2 fleet cards
 1. Immediately discard this, then pick any deployed fleet and discard it
 1. Immediately discard this, then take one Planetary Influence from any planet
@@ -120,4 +120,6 @@ create card backs
 * Duplicate the Fleet deck x4
 * Duplicate the Agents deck x3
 * For Influence use Objects > Components > Player Pawns
+* Hold Alt to examine cards closely
+* Tab to ping
 
